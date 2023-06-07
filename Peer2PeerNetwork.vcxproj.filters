@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DataStructures">
+      <UniqueIdentifier>{8cd77eb6-2720-4a78-ad3d-08988ff44621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataStructures\Trees">
+      <UniqueIdentifier>{e890ea40-bfaf-4874-b967-bad5b25abbf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataStructures\Common">
+      <UniqueIdentifier>{bd62fa17-f062-467b-9ee9-6ba434a98842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataStructures\Queues">
+      <UniqueIdentifier>{ca2c27b0-a3b4-423a-be4c-53c9b381bd7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataStructures\Lists">
+      <UniqueIdentifier>{ab2690f7-ba2f-4d13-b726-f9ed7da209ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataStructures\Dictionaries">
+      <UniqueIdentifier>{b82479cf-856b-4701-a791-a3fac4d5c3ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Networking">
+      <UniqueIdentifier>{63e2dc74-945e-4985-9560-7e59ac032b51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{5b528ab6-99e6-469b-b675-d8b95847e816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Networking\Nodes">
+      <UniqueIdentifier>{a558bcc5-f6be-4df1-86af-0d33f77a8798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataStructures">
+      <UniqueIdentifier>{4538c043-d7c6-4e3a-9dcd-8dec0db9ec5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataStructures\Trees">
+      <UniqueIdentifier>{c09c8674-bd82-4c09-a4de-5609ac1bbf84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataStructures\Dictionaries">
+      <UniqueIdentifier>{7e95f9ac-f00b-407c-be30-45e2d0b35f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataStructures\Common">
+      <UniqueIdentifier>{765f1662-7cda-4fed-8cdd-6182da07551d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Networking\Protocols">
+      <UniqueIdentifier>{355e99be-a063-45d5-8c98-2e651d1f9799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataStructures\Lists">
+      <UniqueIdentifier>{c4b2ce95-b0d7-44cd-b2eb-f997522d2a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataStructures\Queues">
+      <UniqueIdentifier>{f84ca7d0-597a-4a91-8225-17008989ce02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Networking">
+      <UniqueIdentifier>{12b1a41e-1012-43a8-9b72-fc8723f5d643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Networking\Protocols">
+      <UniqueIdentifier>{5a0ef87b-b889-47fa-b4df-72cc29ea49df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Networking\Node">
+      <UniqueIdentifier>{b8f9a711-8631-4b9d-a3d7-ae63f578d95e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{2a072637-5afd-4a85-a903-13ccfaaa9e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cryptography">
+      <UniqueIdentifier>{5d791b7f-141c-4e6f-b7c9-9175741ca066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cryptography">
+      <UniqueIdentifier>{058fa098-391c-4a8d-afd4-89d37b0d68c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BinaryTree.c">
+      <Filter>Source Files\DataStructures\Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="Dictionary.c">
+      <Filter>Source Files\DataStructures\Dictionaries</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.c">
+      <Filter>Source Files\DataStructures\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.c">
+      <Filter>Source Files\DataStructures\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Queue.c">
+      <Filter>Source Files\DataStructures\Queues</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPool.c">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="HTTPRequest.c">
+      <Filter>Source Files\Networking\Protocols</Filter>
+    </ClCompile>
+    <ClCompile Include="HTTPServer.c">
+      <Filter>Source Files\Networking\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.c">
+      <Filter>Source Files\Networking\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="HTTPServerTest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnBoundedInteger.c">
+      <Filter>Source Files\Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpResponse.c">
+      <Filter>Source Files\Networking\Protocols</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.c">
+      <Filter>Source Files\Networking\Node</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>Header Files\DataStructures\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\DataStructures\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Header Files\DataStructures\Queues</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Header Files\DataStructures\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Dictionary.h">
+      <Filter>Header Files\DataStructures\Dictionaries</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="HTTPServer.h">
+      <Filter>Header Files\Networking\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files\Networking\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="HTTPRequest.h">
+      <Filter>Header Files\Networking\Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="Route.h">
+      <Filter>Header Files\Networking\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpResponse.h">
+      <Filter>Header Files\Networking\Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="UnboundedInteger.h">
+      <Filter>Header Files\Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files\Networking\Nodes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
